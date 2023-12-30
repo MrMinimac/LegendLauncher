@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Font'; /* Название шрифта для использования в CSS */
+    src: url('fonts/font.woff') format('woff'); /* Путь к вашему файлу шрифта */
+    /* Добавьте форматы файлов шрифта, которые у вас есть */
+}
+
+body {
+    font-family: 'Font', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Используйте название шрифта, которое вы указали в @font-face */
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8); /* Прозрачный фон для текста и кнопки */
+    padding: 20px;
+    border-radius: 10px; /* Закругленные углы */
+    display: inline-block;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px; /* Размер шрифта для заголовка */
+    font-weight: normal; /* Нормализация толщины шрифта, если это необходимо */
+}
+
+button {
+    background-color: rgb(87, 0, 128);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+html {
+    height: 100%;
+    background: url('images/background.jpg') center/cover no-repeat; /* Замените 'путь_к_вашему_изображению.jpg' на путь к вашему фоновому изображению */
+}
